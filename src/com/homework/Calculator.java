@@ -40,11 +40,18 @@ public class Calculator
     
     public static void main(String[] args)
     {
-        System.out.println(add(4, 2));
-        System.out.println(subtract(4, 2));
-        System.out.println(multiply(4, 2));
-        System.out.println(divide(4, 2));
-        System.out.println(square(4));
+        num1 = 4;
+        num2 = 2;
+        
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + add(num1, num2));
+        
+        System.out.println("The difference between " + num1 + " and " + num2 + " is: " + subtract(num1, num2));
+        
+        System.out.println("The product of " + num1 + " and " + num2 + " is: " + multiply(num1, num2));
+        
+        System.out.println("The quotient of " + num1 + " and " + num2 + " is: " + divide(num1, num2));
+        
+        System.out.println("The square of " + num1 + " and " + num2 + " is: " + square(num2));
     }
 
 }
