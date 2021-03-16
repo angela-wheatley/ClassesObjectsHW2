@@ -3,11 +3,6 @@ package com.homework;
 public class MagicCalculator extends Calculator
 {
 
-    public MagicCalculator(double num1, double num2)
-    {
-        super(num1, num2);
-    }
-
     public static double squareRoot(double num1)
     {
         return Math.sqrt(num1);
@@ -41,8 +36,8 @@ public class MagicCalculator extends Calculator
 
     public static void main(String[] args)
     {
-        num1 = 4;
-        num2 = 2;
+        double num1 = 4;
+        double num2 = 2;
 
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + add(num1, num2));
 

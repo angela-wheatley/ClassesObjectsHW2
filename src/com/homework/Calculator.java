@@ -2,15 +2,6 @@ package com.homework;
 
 public class Calculator
 {
-
-    public static double num1;
-    public static double num2;
-    
-    public Calculator(double num1, double num2)
-    {
-        this.num1 = num1;
-        this.num2 = num2;
-    }
     
     public static double add(double num1, double num2)
     {
@@ -40,8 +31,8 @@ public class Calculator
     
     public static void main(String[] args)
     {
-        num1 = 4;
-        num2 = 2;
+        double num1 = 4;
+        double num2 = 2;
         
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + add(num1, num2));
         
